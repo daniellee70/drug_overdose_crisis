@@ -16,7 +16,7 @@ knitr::opts_chunk$set(message = F, warning = F, collapse = T, echo = F, results 
 
 I recently read a New York Times article on the drug overdose crisis in New Hampshire. The article reported that the State has the second highest drug-induced death rate in the country. My initial thought was that it could not be. I mean I heard of the problem, but the second worst in the whole country? The State consistently ranks at or near the top of many criteria, including median household income and educational attainment. After all, isn't New Hampshire one of the most livable states in the country? I couldn't help but dig data myself. How bad is it really?
 
-The code in the anlaysis can be found in my GitHub account. Click [here](https://github.com/soungl/Entrepreneurial-Activity-in-Lakes-Region).
+The code in the anlaysis can be found in my GitHub account. Click [here](https://github.com/soungl/drugOverdose).
 
 ## Data
 To gauge the severity of the drug overdose crisis in New Hampshire, I used the age-adjusted death rate, which is defined as the number of drug-induced deaths per 100,000 persons that is adjusted to the age distribution. It is a standard way to compare the death rate between different places or between different periods. By adjusting the death rate for the age distribution, we can ensure that a difference in death rates is not attributed to a difference in age distributions. This is because, say, an 80-year old person is more likely to die than a 20-year old person is. In other words, other things being equal, the death rate is likely to be higher in a state with an older population than in a state with a younger population. 
